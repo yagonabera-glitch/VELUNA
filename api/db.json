@@ -1,0 +1,180 @@
+{
+  "produtos": [
+    {
+      "nome": "Vela Perfumada Maça",
+      "categorias": [
+        "outono"
+      ],
+      "imagens": [
+        "card_1.png"
+      ],
+      "id": "v001",
+      "preco": 59.9
+    },
+    {
+      "nome": "Vela Perfumada Abóbora",
+      "categorias": [
+        "outono"
+      ],
+      "imagens": [
+        "card_2.png"
+      ],
+      "id": "v002",
+      "preco": 64.9
+    },
+    {
+      "nome": "Vela Perfumada Canela",
+      "categorias": [
+        "outono"
+      ],
+      "imagens": [
+        "card_3.png"
+      ],
+      "id": "v003",
+      "preco": 54.9
+    },
+    {
+      "nome": "Vela Perfumada Marshmallow",
+      "categorias": [
+        "Outono"
+      ],
+      "imagens": [
+        "card_4.png"
+      ],
+      "id": "v004",
+      "preco": 58.9
+    },
+    {
+      "nome": "Vela Perfumada Sândalo",
+      "categorias": [
+        "inverno"
+      ],
+      "imagens": [
+        "vela-sandalo.png"
+      ],
+      "id": "v005",
+      "preco": 72.9
+    },
+    {
+      "nome": "Vela Perfumada Cedro",
+      "categorias": [
+        "inverno"
+      ],
+      "imagens": [
+        "cedro_resized.png"
+      ],
+      "id": "v006",
+      "preco": 69.9
+    },
+    {
+      "nome": "Vela Perfumada Âmbar",
+      "categorias": [
+        "inverno"
+      ],
+      "imagens": [
+        "ambar.png"
+      ],
+      "id": "v007",
+      "preco": 79.9
+    },
+    {
+      "nome": "Vela Perfumada Café",
+      "categorias": [
+        "inverno"
+      ],
+      "imagens": [
+        "cafe.png"
+      ],
+      "id": "v008",
+      "preco": 62.9
+    },
+    {
+      "nome": "Vela Perfumada Rosas",
+      "categorias": [
+        "primavera"
+      ],
+      "imagens": [
+        "rosas.png"
+      ],
+      "id": "v009",
+      "preco": 56.9
+    },
+    {
+      "nome": "Vela Perfumada Orquídeas",
+      "categorias": [
+        "primavera"
+      ],
+      "imagens": [
+        "orquideas.png"
+      ],
+      "id": "v0010",
+      "preco": 68.9
+    },
+    {
+      "nome": "Vela Perfumada Flor de Laranjeira",
+      "categorias": [
+        "primavera"
+      ],
+      "imagens": [
+        "laranjeira.png"
+      ],
+      "id": "v0011",
+      "preco": 59.9
+    },
+    {
+      "nome": "Vela Perfumada Lavanda",
+      "categorias": [
+        "primavera"
+      ],
+      "imagens": [
+        "lavanda.png"
+      ],
+      "id": "v0012",
+      "preco": 64.9
+    },
+    {
+      "nome": "Vela Perfumada Limão Siciliano",
+      "categorias": [
+        "verao"
+      ],
+      "imagens": [
+        "limao.png"
+      ],
+      "id": "v0013",
+      "preco": 52.9
+    },
+    {
+      "nome": "Vela Perfumada Jasmin",
+      "categorias": [
+        "verao"
+      ],
+      "imagens": [
+        "jasmin.png"
+      ],
+      "id": "v0014",
+      "preco": 58.9
+    },
+    {
+      "nome": "Vela Perfumada Coco",
+      "categorias": [
+        "verao"
+      ],
+      "imagens": [
+        "vela-de-coco.png"
+      ],
+      "id": "v0015",
+      "preco": 55.9
+    },
+    {
+      "nome": "Vela Perfumada Bergamota",
+      "categorias": [
+        "verao"
+      ],
+      "imagens": [
+        "bergamota.png"
+      ],
+      "id": "v0016",
+      "preco": 57.9
+    }
+  ]
+}
