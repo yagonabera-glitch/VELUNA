@@ -32,7 +32,7 @@ export default function Home() {
 
                 <div className="container_estacoes">
                     <div className="estacoes_col1">
-                        <Link to={"/produtos/verao"} className="">
+                        <Link to={"/produtos/verão"} className="">
                             <img src={cards_12} alt="" />
                         </Link>
                         <Link to={"/produtos/inverno"} className="">

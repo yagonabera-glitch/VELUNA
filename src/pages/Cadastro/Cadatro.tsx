@@ -35,7 +35,7 @@ export default function Cadastros() {
         e.preventDefault();
 
         if (!nomeVela || !categoria || !preco) {
-            exibirModalDeErroOuSucesso("Campos obrigatórios", "Preencha o nome, categorias e preço do bolo");
+            exibirModalDeErroOuSucesso("Campos obrigatórios", "Preencha o nome, categorias e preço da vela");
             return;
         }
 
@@ -102,7 +102,7 @@ export default function Cadastros() {
             await fetchVelas()
             fecharModalConfirmacaoDelete();
         } catch (error) {
-            exibirModalDeErroOuSucesso("Erro", "Erro ao deletar o bolo")
+            exibirModalDeErroOuSucesso("Erro", "Erro ao deletar o Vela")
         }
     }
 
@@ -233,7 +233,7 @@ export default function Cadastros() {
                                         <tr>
                                             <td data-cell="Vela: ">{b.nome}</td>
                                             <td data-cell="Categoria: ">{b.categorias.map(c => c.charAt(0).toUpperCase() + c.slice(1)).join(", ")}</td>
-                                            <td data-cell="Preco: ">{formatoService.PrecoBR(b.preco)}</td>
+                                            <td data-cell="Preço: ">{formatoService.PrecoBR(b.preco)}</td>
                                             <td>
                                                 <svg onClick={() => abrirModalParaConfirmarDelete(b.id!)} xmlns="http://www.w3.org/2000/svg"
                                                     viewBox="0 0 640 640">
@@ -260,7 +260,7 @@ export default function Cadastros() {
                 mostrarModalQuando={clicouNaLixeira}
                 aoCancelar={fecharModalConfirmacaoDelete}
                 titulo='Confimar exclusão'
-                corpo="Tem certeza que deseja remover o bolo?"
+                corpo="Tem certeza que deseja remover a vela?"
                 customizarBotoes={true}
                 textoBotaoConfirmacao='Excluir'
                 textoBotaoCancelamento='Cancelar'
@@ -272,7 +272,7 @@ export default function Cadastros() {
                 mostrarModalQuando={aposConfirmacaoDeBoloRemovido}
                 aoCancelar={() => setAposConfirmacaoDeBoloRemovido(false)}
                 titulo="Sucesso"
-                corpo="Vela removido!"
+                corpo="Vela removida!"
             />
             <ModalCustomizado
                 mostrarModalQuando={propsModalDeErroOuSucesso.exibir}

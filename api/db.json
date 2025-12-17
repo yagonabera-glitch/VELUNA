@@ -135,7 +135,7 @@
     {
       "nome": "Vela Perfumada Limão Siciliano",
       "categorias": [
-        "verao"
+        "verão"
       ],
       "imagens": [
         "limao.png"
@@ -146,7 +146,7 @@
     {
       "nome": "Vela Perfumada Jasmin",
       "categorias": [
-        "verao"
+        "verão"
       ],
       "imagens": [
         "jasmin.png"
@@ -157,7 +157,7 @@
     {
       "nome": "Vela Perfumada Coco",
       "categorias": [
-        "verao"
+        "verão"
       ],
       "imagens": [
         "vela-de-coco.png"
@@ -168,7 +168,7 @@
     {
       "nome": "Vela Perfumada Bergamota",
       "categorias": [
-        "verao"
+        "verão"
       ],
       "imagens": [
         "bergamota.png"

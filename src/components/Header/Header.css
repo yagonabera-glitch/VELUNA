@@ -64,6 +64,9 @@ header {
     cursor: pointer;
     font-family: "Bellota", system-ui;
 }
+a{
+    color: #ffffff;
+}
 
 .lupa_k {
     width: 35px;
